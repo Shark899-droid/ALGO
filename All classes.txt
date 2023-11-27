@@ -1,0 +1,47 @@
+TREE
+    POSITION
+    element
+    __eq__(other)
+    __ne__(other)
+root
+parent
+num_children
+children
+__len__
+is_root(p)
+is_leaf(p)
+is_empty
+__iter__
+preorder
+postorder
+_subtree_postorder(p)
+_subtree_preorder(p)
+breadthfirst
+
+LINKEDBINARYTREE(BINARYTREE)
+    _NODE
+    POSITION(BINARYTREE.POSITION)
+    element
+    __eq__
+_validate(p)
+_make_position(node)
+__len__
+root
+parent(p)
+left (p)
+right(p)
+num_children(p)
+_add_root(e)
+_add_left(p,e)
+_add_right(p,e)
+_replace(p,e)
+_delete(p)
+_attack(p,t1,t2)
+
+BINARYTREE(TREE)
+left(p)
+right(p)
+sibling(p)
+inorder
+positions()from the Tree class
+_subtree_inorder(p)
